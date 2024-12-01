@@ -1,0 +1,130 @@
+
+body {
+    padding-top: 100px;
+    font-family: 'Inter';
+}
+
+.navbar-brand {
+    display: flex;                
+    align-items: center; 
+    color:#a41212 !important;         
+}
+
+
+.navbar-brand img {
+    margin-right: 10px;
+    border-radius: 50%;           
+}
+
+.navbar-brand span {
+    font-size: 1.5rem;       
+}
+
+.navbar.bg-body-tertiary {
+    background-color: pink!important; 
+}
+
+.navbar-nav .nav-link {
+    color: rgb(135, 11, 11) !important;
+    font-size: 1.2rem;       
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(234, 106, 106) !important;
+}
+
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover{
+    transform: translateY(-10px); 
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.btn-primary{
+    background-color:#7a1323;
+    border: none;
+    font-family: sans-serif;
+}
+
+.btn-secondary{
+    font-family: sans-serif;
+
+}
+
+.btn-primary:hover{
+    background-color: pink;
+}
+
+
+.filter-section h4 {
+    font-size: 1.5rem;
+}
+
+.footer {
+    background-color: #9b1b30; 
+    color: white; 
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.footer .btn {
+    font-size: 24px;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.footer .btn:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.contact-info {
+    font-family: Arial, sans-serif; 
+    color: #333; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+.contact-info h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.contact-item {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.contact-item i {
+    margin-right: 10px; 
+    color: #ff6890; 
+}
+
+.contact-item span {
+    font-size: 1rem;
+    color: #ffffff;
+}

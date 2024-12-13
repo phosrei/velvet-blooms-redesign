@@ -1,6 +1,6 @@
-body{
+body {
     font-family: 'Inter';
-}
+}       
 
 .navbar-brand {
     display: flex;                
@@ -98,6 +98,10 @@ body{
     margin-bottom: 40px;
 }
 
+.recommended .row {
+    margin-top: 20px;
+}
+
 .card {
     border: none;
     border-radius: 10px;
@@ -119,17 +123,18 @@ body{
     font-size: 1.25rem; 
 }
 
-.card-text {
-    font-size: 0.9rem;   
-}
-
-.card:hover {
-    transform: translateY(-10px); 
+.card-dscrp {
+    font-size: 0.9rem;
+    min-height: 108px;
 }
 
 #order-btn{
     border: none;
     background-color:  palevioletred;
+}
+
+#order-btn:hover {
+    background-color:  rgb(201, 84, 123);
 }
 
 .customer-feedback {
@@ -150,11 +155,6 @@ body{
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.customer-feedback .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 .customer-feedback .card-body {
@@ -306,10 +306,6 @@ body{
     .about-us {
         padding-top: 30px;
         padding-bottom: 30px;
-    }
-
-    .recommended .row {
-        margin-top: 20px;
     }
 }
 
